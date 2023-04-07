@@ -8,23 +8,87 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
   <style>
     .nav {
-      height: 70px;
-      border-bottom: 1px solid black;
       display: flex;
+      flex-direction: row;
+      justify-content: center;
       align-items: center;
+      padding: 15px 25px 15px 20px;
+      gap: 384px;
+      position: absolute;
+      width: 1293px;
+      height: 98px;
+      left: 106px;
+      top: 55px;
+      background: #FFFFFF;
+      border-radius: 50px;
+      border: solid 1px black
     }
 
     .nav-right-items {
       display: flex;
-      margin-left: auto;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      gap: 60px;
+      width: 665px;
+      height: 52px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 35px;
+      width: 390px;
+      height: 30px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
     }
 
     .nav-item {
-      margin-left: 10px;
+      width: 77px;
+      height: 30px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #252525;
+      opacity: 0.7;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    .ps-button {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 11px 43px;
+      gap: 10px;
+      width: 215px;
+      height: 52px;
+      background: #0D2D84;
+      border-radius: 50px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      color: #FFFFFF;
     }
 
     .company-name {
-      margin-left: 20px;
+      margin-left: 10px;
     }
 
     .title {
@@ -99,10 +163,13 @@
       CSS 실습중
     </div>
     <div class="nav-right-items">
-      <div class="nav-item">메뉴1</div>
-      <div class="nav-item">메뉴2</div>
-      <div class="nav-item">메뉴3</div>
-      <div class="nav-item">메뉴4</div>
+      <div class="menu">
+        <div class="nav-item">Home</div>
+        <div class="nav-item">커뮤니티</div>
+        <div class="nav-item">마이페이지</div>
+        <div class="nav-item">로그인</div>
+      </div>
+      <button class="ps-button">질문예측서비스</button>
     </div>
   </div>
   <div class="main">
