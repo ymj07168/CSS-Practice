@@ -7,6 +7,16 @@
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <style>
+    .nav-block {
+      background-color: #DBE9F1;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 55px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
     .nav {
       display: flex;
       flex-direction: row;
@@ -14,11 +24,9 @@
       align-items: center;
       padding: 15px 25px 15px 20px;
       gap: 384px;
-      position: absolute;
-      width: 1293px;
-      height: 98px;
-      left: 106px;
-      top: 55px;
+      /*       position: absolute; */
+      /*       width: 1293px;
+      height: 98px; */
       background: #FFFFFF;
       border-radius: 50px;
       border: solid 1px black
@@ -158,18 +166,20 @@
 </head>
 
 <body>
-  <div class="nav">
-    <div class="company-name">
-      CSS 실습중
-    </div>
-    <div class="nav-right-items">
-      <div class="menu">
-        <div class="nav-item">Home</div>
-        <div class="nav-item">커뮤니티</div>
-        <div class="nav-item">마이페이지</div>
-        <div class="nav-item">로그인</div>
+  <div class="nav-block">
+    <div class="nav">
+      <div class="company-name">
+        CSS 실습중
       </div>
-      <button class="ps-button">질문예측서비스</button>
+      <div class="nav-right-items">
+        <div class="menu">
+          <div class="nav-item">Home</div>
+          <div class="nav-item">커뮤니티</div>
+          <div class="nav-item">마이페이지</div>
+          <div class="nav-item">로그인</div>
+        </div>
+        <button class="ps-button">질문예측서비스</button>
+      </div>
     </div>
   </div>
   <div class="main">
